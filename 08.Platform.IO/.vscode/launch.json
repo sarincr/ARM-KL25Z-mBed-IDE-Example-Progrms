@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/angicia/Documents/PlatformIO/Projects/200106-155138-mbed-blink/.pio/build/frdm_kl25z/firmware.elf",
+            "toolchainBinDir": "/home/angicia/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "/home/angicia/.platformio/platforms/freescalekinetis/misc/svd/MKL25Z4.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/angicia/Documents/PlatformIO/Projects/200106-155138-mbed-blink/.pio/build/frdm_kl25z/firmware.elf",
+            "toolchainBinDir": "/home/angicia/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "/home/angicia/.platformio/platforms/freescalekinetis/misc/svd/MKL25Z4.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
